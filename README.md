@@ -1,4 +1,4 @@
-# watson
+# DDJ @ watson.ch
 
 Projekte aus dem Bereich Datenjournalismus von watson.ch
 
