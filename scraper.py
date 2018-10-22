@@ -8,7 +8,7 @@ import requests
 from bs4 import BeautifulSoup
 import pandas as pd
 
-df = pd.read_csv("skigebiete_linkliste.csv")
+df = pd.read_csv("skigebiete/skigebiete_linkliste.csv")
 linkliste = df['0'].tolist()
 
 skigebiete_final = []
@@ -35,11 +35,7 @@ import datetime
 
 now = datetime.datetime.now()
 #print (now.strftime("%Y-%m-%d %H:%M"))
-df_skigebiete.to_csv('skigebiete_oeffnungszeiten/'+now.strftime("%Y-%m-%d_%H-%M_skigebiete_oeffnungszeiten.csv"))
+df_skigebiete.to_csv('skigebiete/skigebiete_oeffnungszeiten/'+now.strftime("%Y-%m-%d_%H-%M_skigebiete_oeffnungszeiten.csv"))
 
 
 # In[ ]:
-
-
-
-
